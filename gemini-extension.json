@@ -1,0 +1,6 @@
+{
+  "name": "session-end",
+  "description": "Structured end-of-session ritual for AI coding agents",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}

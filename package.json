@@ -1,0 +1,16 @@
+{
+  "name": "session-end",
+  "version": "1.0.0",
+  "description": "Structured end-of-session ritual for AI coding agents",
+  "author": {
+    "name": "Zeshuo Chen",
+    "email": "zeshuo.chen@outlook.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeshuochen/session-end"
+  },
+  "homepage": "https://github.com/zeshuochen/session-end",
+  "keywords": ["claude-code", "skills", "memory", "session", "workflow"]
+}

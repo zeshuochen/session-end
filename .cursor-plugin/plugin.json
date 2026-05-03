@@ -1,0 +1,15 @@
+{
+  "name": "session-end",
+  "displayName": "Session End",
+  "description": "Structured end-of-session ritual for AI coding agents — task audit, retrospective, memory update, and next-session planning",
+  "version": "1.0.0",
+  "author": {
+    "name": "Zeshuo Chen",
+    "email": "zeshuo.chen@outlook.com"
+  },
+  "homepage": "https://github.com/zeshuochen/session-end",
+  "repository": "https://github.com/zeshuochen/session-end",
+  "license": "MIT",
+  "keywords": ["skills", "memory", "session", "workflow", "retrospective"],
+  "skills": "./skills/"
+}
