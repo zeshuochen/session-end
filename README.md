@@ -65,7 +65,6 @@ The hook watches every message for trigger phrases and injects structured instru
 | Trigger phrase | Effect |
 |---|---|
 | `end session` / `结束对话` | Injects instruction to invoke `/session-end` immediately |
-| `start session` / `开启对话` | Injects instruction to read memory and surface last session's todos |
 
 **Install:** merge the contents of `hooks/hooks.json` into your `~/.claude/settings.json`:
 
