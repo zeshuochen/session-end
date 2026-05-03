@@ -21,15 +21,10 @@ def main():
             '</EXTREMELY_IMPORTANT>'
         )
     else:
-        sm = ''
+        print(json.dumps({}))
+        return
 
-    reminder = (
-        '[Memory Rule] On mistake/correction → write feedback memory immediately. '
-        'On phase complete → decide whether to update memory. Do not wait to be asked.'
-    )
-
-    output = '\n\n'.join(filter(None, [sm, reminder]))
-    print(json.dumps({'systemMessage': output}, ensure_ascii=False))
+    print(json.dumps({'systemMessage': sm}, ensure_ascii=False))
 
 
 if __name__ == '__main__':
